@@ -223,42 +223,42 @@
   animation-play-state: running;
 }
 
-.visitedTargetNodePurple {
-  background-image: url(circle.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  animation-name: visitedStartNodePurpleAnimation;
-  animation-duration: 2.0s;
-  animation-timing-function: ease-out;
-  animation-delay: 0;
-  animation-direction: alternate;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-play-state: running;
-}
-
-@keyframes visitedStartNodePurpleAnimation {
-  0% {
-    transform: scale(.3);
-    background-color: rgba(41, 4, 24, 0.75);
-    border-radius: 100%;
+  .visitedTargetNodePurple {
+    background-image: url(circle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: visitedStartNodePurpleAnimation;
+    animation-duration: 2.0s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
   }
 
-  50% {
-    background-color: rgba(97, 0, 20, 0.75);
-  }
+  @keyframes visitedStartNodePurpleAnimation {
+    0% {
+      transform: scale(.3);
+      background-color: rgba(41, 4, 24, 0.75);
+      border-radius: 100%;
+    }
 
-  75% {
-    transform: scale(1.2);
-    background-color: rgba(216, 5, 141, 0.75)
-  }
+    50% {
+      background-color: rgba(97, 0, 20, 0.75);
+    }
 
-  100% {
-    transform: scale(1.0);
-    background-color: rgba(178, 67, 255, 0.75);
+    75% {
+      transform: scale(1.2);
+      background-color: rgba(216, 5, 141, 0.75)
+    }
+
+    100% {
+      transform: scale(1.0);
+      background-color: rgba(178, 67, 255, 0.75);
+    }
   }
-}
 
 @keyframes visitedStartNodeBlueAnimation {
   0% {
